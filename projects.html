@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: rgb(41, 39, 39);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding-top: 60px;
+        }
+        h1 {
+            color: aqua;
+        }
+        /* Navigation Bar */
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+            text-align: right;
+        }
+        .nav a {
+            margin-right: 50px;
+            text-decoration: none;
+            color: rgb(221, 215, 215);
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
+                .projects-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centers project cards horizontally */
+            gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .project-card {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .project-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-card a {
+            display: block;
+            margin-top: 10px;
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+        /* Ensuring 'MY PROJECTS' uses Sigmar font */
+        .projects-heading {
+            font-family: 'Sigmar', serif !important;
+            font-size: 30px;
+            color: beige;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Links -->
+    <div style="position:absolute; top: 10px; right: 20px; font-size:20px ; font-family: 'Poppins', sans-serif;">
+        <b>
+            <a href="index.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">Home</a>
+
+            <a href="about.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">About</a>
+            
+            <a href="skills.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">Skills</a>
+            
+            <a href="projects.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">Projects</a>
+        </b>
+    </div> 
+    
+    <p class="projects-heading">MY PROJECTS:</p>
+    <br><br>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <img src="logo.png" alt="Knowledge-Based Search">
+            <h3>Knowledge-Based Search</h3>
+            <a href="https://github.com/DilpreetSyali/Knowledge-Based-search-Enhancement" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="spell.jpeg" alt="Spell Corrector">
+            <h3>Spell Corrector</h3>
+            <a href="https://github.com/DilpreetSyali/Spell-Corrector" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="travel.jpeg" alt="Online Travel Management">
+            <h3>Online Travel Management</h3>
+            <a href="https://github.com/DilpreetSyali/Travel-Management-System" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="hdr.jpeg" alt="Handwritten Digit Recognition">
+            <h3>Handwritten Digit Recognition</h3>
+            <a href="https://github.com/DilpreetSyali/Handwritten-Digit-Recognition-" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="mouse.jpeg" alt="AI Virtual Mouse">
+            <h3>AI Virtual Mouse</h3>
+            <a href="https://github.com/DilpreetSyali/AI-Virtual-Mouse" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="gitlab.jpeg" alt="GitLab Automation">
+            <h3>GitLab Automation</h3>
+            <a href="https://github.com/DilpreetSyali/skills-introduction-to-github" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+</body>
+</html>
