@@ -1,0 +1,2635 @@
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+Walmart CodeHers
+Previous Year Questions
+- Prepared by Anusha
+
+1. Choose the option which is not an example of a control statement.
+a. The Loop
+b. The process
+c. The Sequential
+d. The decision
+
+2. Catalan numbers can be implemented in several ways, which of these is the best way in
+terms of time complexity?
+a. Dynamic Programming
+b. Recursion
+c. Binomial coefficients
+d. Equal complexity in every case
+
+3. Which of the following are the two main characteristics used to define the efficiency of an
+algorithm?
+a. Time and space
+b. Data and time
+c. Processor and memory
+d. Complexity and capacity
+
+4. An array can be definedias:
+a. A data structure which stores heterogeneous data elements
+b. A data structure which stores homogeneous data elements
+c. A data structurewhich shows hierarchical behaviour
+d. Allofthe above
+
+5. While inserting in a circular queue, which of the following is the correct way to increment
+the rear value?
+
+rear =rear+1
+
+(rear+1) % max
+
+(rear % max) +1
+
+None of the above
+
+ao°>o®
+
+6. Which of the following is the application of stack?
+a. Data Transfer between two asynchronous process
+b. Simulation of limited resource allocation
+c. Compiler Syntax Analyzer
+d. Load balancing
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+7. Which data structure is considered best to find maximum value from a huge collection of
+
+data?
+a. Sorted array
+b. Max heap
+c. Min heap
+d. Binary search tree
+
+8. A complete n-ary tree contains 14 internal nodes and 29 leaf nodes. What is the value of n?
+
+a. 2
+b. 3
+c. 4
+d. 5
+
+9. Find the time complexity of sorting n integers using Radix sort. Each integer has d digits and
+the digit is in the set of (1,2...,5).
+
+O(s(n+d))
+
+O(d(n+s))
+
+O ((n +s) Ig d)
+
+O ((n +d) Igs)
+
+qaoow
+
+10. Choose the incorrect property of a binary tree:
+a. For every level ‘i’ (i>=0), there are no more than2i nodes on that level.
+b. In Binary tree where every node has 0 or 2 children, the number of leaf nodes is
+always one more than nodes with,two children.
+c. If the tree has L levels, then the maximum nodes present can be 2L-1.
+If binary tree has N nodes, the number of levels of that tree is at least floor(log(N+1))
+
+11. Calculate the result of the following prefix expression: +, -, *, 8,4, /, 6, 2,5
+
+a. 32
+b. 34
+Ge 5
+
+d. 42
+
+12. Suppose.a word is reversed using stack algorithm. What will be the number of stacks
+required to perform such task?
+
+a 2
+b. 2
+. 2
+
+d. None of the above
+
+13. If you have n distinct keys, how many distinct binary search trees can be created?
+
+a. 2n!
+b. (2n)!/ (n)!
+c. (n)!/(n-1)!
+
+d. (2n)! / (n! * (n-1)!)
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+14. A single try block must be followed by which of these?
+a. finally
+b. catch
+c. Both finally and catch
+d. None of the above
+
+15. Which of the following methods is used to avoid serialization of new class whose super
+class already implements Serialization?
+a. writeObject()
+b. readWriteObject()
+c. writeReadObject()
+d. unSerializaedObject()
+
+16. A table has fields F1, F2, F3, F4, and F5, with the following functional dependencies: F1->F3
+F2->F4 (F1,F2)->F5 In terms of normalization, this table is in?
+
+a. INF
+b. 2NF
+c. 3NF
+d. None of the above
+
+17. Which is a bottom-up approach to database design that design by examining the
+relationship between attributes?
+a. Functional dependency
+b. Database modeling
+c. Normalization
+d. Decomposition
+
+18. What are composite indexes?
+a. Are those which are composed by database for its internal use
+b. Acomposite index is a combination of index on 2 or more columns
+c. Composite index can.never be created
+d. None of the above
+
+19. If a transaction is performed in a database and committed, the changes are taken to the
+previous state of transaction by
+a. Flashback
+b. Rollback
+c. Both Flashback and Rollback
+d. Cannot be done
+
+20.A indicates an absent value that may exist but be unknown or that may not
+exist at all.
+a. Empty tuple
+b. New value
+c. Null value
+d. Old value
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+21. Here which of the following displays the unique values of the column?
+
+SELECT__—_—s deept_name
+FROM instructor;
+
+a. All
+
+b. From
+
+c. Distinct
+
+d. Name
+
+22. Let R(A,B,C,D,E,P,G) be a relational schema in which the following FDs are known to hold:
+
+AB->CD
+
+DE->P
+
+C->E
+
+P->C
+
+B->G
+
+The relation schema R is?
+
+a. In BCNF
+b. In 3NF, but not in BCNF
+c. In 2NF, but not in 3NF
+d. Not in 2NF
+
+23. Which of the following is a basic form of grant statement?
+a. GRANT 'privilege list' ON 'relation name@or view name' TO 'user/role list';
+b. GRANT 'privilege list' ON 'user/role list' TO ‘relation name or view name’;
+c. GRANT 'privilege list' TO 'user/role list!
+d. GRANT 'privilege list' ON 'relation name orview name' ON 'user/role list';
+
+24. Class (course id, title, dept name, credits, sec id, semester, YEAR, building, room NUMBER,
+capacity, TIME slot id)
+The SET OF functional dependencies that we require TO hold ON class are:
+course id->title, dept name, credits
+building, room number->capacity
+course id, sec id, semester, year->building, room NUMBER, TIME slot id
+
+A candidate KEY FOR this schema IS (course id, sec id, semester, YEAR}
+
+Considering the above conditions, which of the following relation holds?
+a. Course id-> title, dept name, credits
+b. Title-> dept name, credits
+c. Dept name-> credits
+d. Cannot be determined
+
+25. Convert the given Infix Expression (((10/2) + 7) - (3 + (5 - 2))) to a Prefix Expression
+a. /+1027-+-352
+b. -/4+1027+-352
+c -10/2+73+5-2
+d. -+/1027+3-52
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+26. Rachel is learning the concepts of arrays in java. She was curious to know where the array
+object reference is stored. Can you determine the correct answer for the same?
+
+a. Stack
+b. Heap
+c. JVM
+d. JRE
+
+27. Suppose you want to specify additional directories in Numpy for a machine learning
+algorithm then which of the following environment variables will you choose?
+a. pythonpath
+b. numpath
+c. algopath
+d. pythonspace
+
+28. Consider that you have implemented QuickSearch to find the 3rd largest number in an
+array of size n=7. If the selected pivot in the first partition is.the largest element in the
+array, what will be its final position in the array after the partition step?
+
+a. First position
+b. Third position
+c. Seventh position
+d. Sixth position
+
+29. In a Job Scheduling scenario, there are 'n' tasks with their respective deadlines and profits.
+The scheduler uses a greedy algorithm to maximize profit. Suppose there are 4 tasks with
+their respective deadlines of 4, 1, 1, and 1 units, and respective profits of 20, 10, 40, and 30
+units. What is the maximum profit thatican be earned from this job scheduling?
+
+a. 50 units
+b. 60 units
+c. 70 units
+d. 80 units
+
+30. Peter has been working onan ML project and is performing correlation Tests on a DataSet.
+He needs to estimate how likely the observations made would be (by considering the
+assumption of the null hypothesis) true.
+
+Which of the following does he need to use to achieve this?
+a. Pearson's Correlation Coefficient
+b. Spearman's Rank Correlation Coefficient
+c. Chi-Squared Test
+d. Kendall's Rank Correlation Coefficient
+
+31. When an object is passed to a function, its copy is made in the function and then
+a. The destructor is never called in this case
+b. The destructor is called but it is always implicit
+c. The destructor must be user defined
+d. The destructor of the copy is called when function is returned
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+32. A Red-Black tree has been made, with a root number of 10, and children ages 7 and 14.
+Red is the hue of the child nodes. The seven children would be
+
+a. Red
+
+b. Black
+
+c. Uncoloured
+
+d. Red-Black mix
+
+33. Consider an element that was the first to arrive in a queue. Which of the following
+statements about that element is correct?
+a. It will enqueue first
+b. It will enqueue last
+c. It will never enqueue
+d. It will enqueue in middle
+
+34. Usually a pure virtual function
+a. Will never be called
+b. Has complete function body
+c. Will be called only to delete an object
+d. Is defined only in derived class
+
+35. You are given a large dataset consisting of millions of records. Each record contains an
+integer value. Your task is to find the kth largest element from the dataset efficiently.
+
+Which algorithm would you choose to solve this problem?
+a. QuickSort
+b. HeapSort
+c. Radix Sort
+d. Binary Search Tree
+
+36. Consider the JPA based code segment below:
+1. @OneToOne
+2. @Mapsid
+3. @JoinColumn(name = "roll")
+4. private Session session;
+
+What kind of annotation is present at line number 2?
+a. Primary
+b. Composition
+c. Association
+d. Internalization
+
+37. Which feature of OOPS described the reusability of code?
+a. Inheritance
+b. Polymorphism
+c. Encapsulation
+d. Abstraction
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+38. An Algorithm is required to be used on a website where the plagiarism is to be checked.
+Which of the following can be used?
+a. Separate
+b. KMP
+c. Open Hashing
+d. Floydd Warshal
+
+39. Assume the following weights and values: Weights: [10, 25, 15, 40] Values: [60, 100, 90,
+120] The maximum weight capacity of the knapsack is 60 units. What is the maximum total
+value that can be placed in the knapsack?
+
+a. 250
+b. 270
+c. 280
+d. 290
+
+40. In a given graph with 10 vertices and 8 edges, you start a Breadth-First Search (BFS) from a
+specific vertex. Unfortunately, the BFS halts prematurely due to a system error after
+visiting 5 vertices. How many vertices were not visited by the BFS before it stopped?
+
+a.
+
+num SW
+
+b.
+C.
+d
+41. Consider a stack of size 3 is stack(25,26,27)
+
+POP(stack, item)
+POP(stack, item)
+PUSH(4)
+PUSH(3)
+PUSH(2)
+POP(stack, item)
+
+What will be the top most element of the stack?
+
+a. 4
+b. 25
+c. 2
+d. 3
+
+42. Consider a binary tree where each node contains a single digit from 0 to 9, You traverse the
+tree using an In-order traversal and the output sequence is 4, 2, 5, 1, 8, 3, 6. You also use a
+Pre-order traversal and the output sequence is 1, 2, 4, 5, 3, 8, 6. What would be the Post-
+order traversal sequence for the same binary tree?
+
+a. 4,5,2,8,6,3,1
+
+b. 4,2,5,6,8,3,1
+c. 4,5,2,8,3,6,1
+d. 5,4,2,6,8,3,1
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+43. You are given a binary tree with integer values. Each node in the tree represents a
+mathematical expression in prefix notation. Your task is to evaluate the expression and
+return the result.
+
+Given the following binary tree:
+
++
+/\
+*6
+/\
+54
+What is the result of evaluating the expression represented by this binary tree?
+a. 38
+b. 24
+c. 26
+d. 20
+
+44. George is working on an ML project and is required to convert the given element into
+"mantissa" and "twos exponent".
+Which of the following functions should he use?
+
+a. trunc
+b. fmod
+c. frexp
+d. idexp
+
+45. There is now a dequeue for input constraints. Which statement about such a dequeue is
+accurate?
+a. Input is restricted at both ends
+b. input is restricted at any end
+c. Input is restricted at the back
+d. Input is restricted/at the front
+
+46. Take the string a ="datastructuresandalgorithms". Determine the index location of the
+second instance of the character "s" in the string a. (Think about a 0 based indexing
+
+system.)
+a. 4
+b. 5
+c. 13
+d. 10
+
+47. Consider a sequence of numbers 72, 40, 36, 15, 71, 31, 17, 62 to be sorted using Shell Sort.
+The gap sequence is defined by Knuth's formula, h = 3h + 1, starting with h=1. If we follow
+this gap sequence and apply Shell Sort, how many swaps will be made after the second gap
+
+(h=4)?
+a. 5 swaps
+b. 4 swaps
+c. 3 swaps
+d. 6 swaps
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+48. How many parent nodes may a node in a binary tree have?
+a 2
+
+b. 4
+a. 3
+d. 1
+
+49. Which of the following ways are legal to access a class data member using this pointer?
+
+a. this->x
+b. this.x
+
+c. *this.x
+d. *this-x
+
+50. Class A has two protected member variables a=5 and b=15. Class B inherited class Ain
+public mode. In Class B there is a member function mem() which sets the value of an
+equals 0 mem() function. If we create an object of class B and call mem() with it then what
+will be the value of a after this call?
+
+a 5
+b. O
+c. 15
+d. 10
+
+51. How can a static member function be called inthe main function?
+a. Using dot operator
+Using dot or arrow operator
+Using dot, arrow or using scope resolutiomoperator with class name
+
+ao
+
+Using arrow operator
+
+52. George has a[] = 24,39,40,51,22,80,73 array. After creating a min-heap and a max-heap
+from it and inserting 23 and.90 into both heaps, which node is the root node of the min-
+heap and which node is the root. node of the max-heap? A min-heap is a complete binary
+tree in which the value of each internal node is less than or equal to the value of that
+node's offspring. A max-heap is a complete binary tree in which each internal node's value
+is larger than or equal to the values of that node's offspring
+
+a. Root of the min-heap: node 24, root of the max-heap: 90
+b. Root of the min-heap: node 22, root of the max-heap: 80
+c. Root of the min-heap: node 23, root of the max-heap: 80
+d. Root of the min-heap: node 22, root of the max-heap: 90
+
+53. Which of the following statements best describes the purpose and effect of rehashing ina
+
+hashmap?
+a. Rehashing aims to balance entries across buckets, reducing collisions and improving
+performance.
+
+b. Rehashing is done to lower the memory use of the hashmap, but it may negatively
+affect performance.
+
+c. Rehashing reduces the time needed for the hash function, improving insertion speed.
+Rehashing optimizes hashmap size, but can increase the load factor and decrease
+performance.
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+54. If in an RSA algorithm, we have a public key (e,n) = (7, 33) and we want to encrypt a
+plaintext message, M=2, what would be the encrypted ciphertext C?
+
+a. 29
+b. 8
+
+c. 16
+d. 21
+
+55. Which one of the following options is correct?
+a. Friend function can access public data members of the class.
+b. Friend function can access protected data members of the class.
+c. Friend function can access private data members of the class.
+d. Allofthe above
+
+56. Which of the following approaches is adapted by C++?
+a. Top-down
+b. Bottom-up
+c. Right-left
+d. Left-right
+
+57. Which of the given below statements is INCORRECT about Linked Lists
+a. Anode can added and deleted from any location of the linked list
+b. Linked lists have dynamic size allocation
+c. The size of a linked list can be changed once initialized
+d. None of the above
+
+58. Lise has written a Java code in which the parent and child classes have the same methods.
+Which of the following keyword will.help him in removing that ambiguity?
+
+a. Extends
+b. Final
+
+c. Abstract
+d. Super
+
+59. When simulating a stack with a linked list, where should we place a new element?
+a. Atthe head
+b. At-the tail
+c. Atany Random position
+d. At the middle
+
+60. Youneed to implement a linked list data structure. Which of the following scenarios would
+be the most appropriate and efficient use case for utilizing a linked list?
+
+a. Storing and manipulating a large dataset of customer transaction records in real-time.
+
+b. Implementing a priority queue to process a stream of incoming data points in a time-
+series analysis.
+
+c. Performing complex graph-based algorithms such as breadth-first search or Dijkstra's
+algorithm on a social network dataset.
+
+d. Storing and retrieving user preferences and settings in an application.
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+61. Given below are some of the algorithms, find the odd one out amongst the following?
+
+a.
+b.
+c.
+d.
+
+Boyer-Moore
+Separate Chaining
+Linear Probing
+Double hashing
+
+62. Consider a given linked list (11 -> 5 -> 9 -> 10 -> 11 -> 8 -> 2 -> 6 -> 7 -> 10 ) and you have to
+traverse from the beginning. An element is considered good if that element is strictly
+smaller than the next element in the linked list. Find out the total number of good
+elements in the given above linked list.
+
+a.
+
+b.
+c.
+d.
+
+4
+
+6
+a
+5
+
+63. Which of the following algorithms has the worst time complexity of O(n)?
+
+a.
+
+b.
+c.
+d.
+
+Recursive LS
+Iterative LS
+Both A and B
+Neither A nor B
+
+64. Tree and Graph is an example of?
+
+a.
+
+b
+c.
+d
+
+Linear data structure
+Non-linear data structure
+Arrow based data structure
+Both A and B
+
+65. Which of the following is true about array element with index 1?
+
+a.
+
+b.
+é
+d
+
+It represents the first element of the array
+
+It is equal to 1
+
+It represents the second element of the array
+None of the mentioned
+
+66. Suppose.a_prefix expression is as follows
++4+694+742442
+What would be the evaluated expression?
+
+a.
+
+b.
+c.
+d
+
+36
+39
+41
+42
+
+67. Which of the following algorithms cannot be used if 2 strings "ABCD and “CD” are to be
+
+matched?
+a. Boyer-Moore
+b. Rabin & Karp
+c. KMP
+d
+
+Linear Chaining
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+68. There are 2 lists as follows:
+
+247910
+13468
+To merge these lists, time complexity would be:
+a. O(mn)
+b. O(mlogn)
+c. O(nlogm)
+d. O(m+n)
+
+69. You have to convert the given array arr into a non-decreasing array. You can only remove
+numbers from the ends of the array. Which of the sets of operations will result in arr being
+sorted? arr[7] = {4,3,3,8,4,5,2}
+
+a. Remove 4,3,3,8 from the beginning of the array.
+
+b. Remove 8,4,5,2 from the end of the array.
+
+c. Remove 4 from the beginning of the array and 2, 5, 4 from the end of the array
+d. None of these
+
+70. A Tree traversal is given as follows : 3246124911
+12 is the root of this tree.
+The traversal here is :
+a. Postorder
+
+b. Preorder
+c. Inorder
+d. Level-order
+71. Which of the following represented as an array is a full binary tree? (Note: "_" represents
+
+blank element).
+a. {1,2,3,_,_,6,7,_,5}
+b. {1,2,3,4,_,6,7,_,_}
+c. {1,2,3,_,_,6,7}
+d. {1,2,3,_,_,6,7,5, }
+
+72. Which algorithm cannot find out the shortest path if there is a cycle with a negative length
+in the graph?
+a. Dijkstra's Algorithm
+b. Bellman-Ford Algorithm
+c. Floyd-Warshall Algorithm
+d. All of the above
+
+73. How many times the inner loop is executed for a modified selection sort, and what would
+the array look like after the 2nd iteration of the outer loop?
+The array = [7 3 28 10 38 22 12 342]
+a. 1time, [12237 10 22 28 3438]
+b. 10 times, [1 2 28 10 38 22 7 3 342]
+c. 5 times, [1 223710 22 28 34 38]
+d. 5times, [1 228103 227 2 3438]
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+74. What will be the value of the address field of the last element of any circular singly linked
+list?
+a. null
+b. address of second last field
+c. address of first element
+d. None of the mentioned
+
+75. Consider a 3-D array X[100] [20] [50]. Sara wants to get the value stored at index X[15] [5]
+[45] using pointer. What will be the equivalent pointer expression of referring to the
+element at X[15] [5] [45]?
+
+a. ***((X+15)+5)+45
+b. *(*(*(X+15)4+5)+45)
+c. ***((X+45)4+5)4+15
+d. ***((X+45)4+5)4+15
+
+76. Consider an element that queued in first in a queue. Which of the following statements
+about that element is correct?
+a. It will enqueue first
+b. It will enqueue last
+c. It will never enqueue
+d. It will enqueue in middle
+
+77. Which of the data structure has a back edge?
+a. Singly Linked List
+b. Tree
+c. Graph
+d. Allof these
+78. Consider an element that "push" in first in a stack. Which of the following is true about this
+element?
+a. It will pop out first
+It will pop outlast
+
+b
+c. It will never pop out
+d. It.will pop out in the middle
+
+79. Which of the following is true about the Hash tables?
+a. It can have duplicate values and keys
+b. Jt cannot have duplicate values
+c. It can have duplicate values but no duplicate keys
+d. It can have duplicate keys but no duplicate values
+
+80. In a tree where 21 & 13 are children of 1, and 14 & 51 are children of 21, what will be the
+BFS traversal of that tree starting from 1?
+
+1->21->14->51->13
+
+->13->14->21->51
+
+1->21->13->14->51
+
+1->14->51->21->13
+
+aooo
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+81. An Array is to be divided based on some conditions where it is divided based on the sum is
+most likely solved using:
+
+a. Greedy
+
+b. Recursion
+
+c. DP
+
+d. Divide and Conquer
+
+82. Consider a stack of size 3 is stack(25,26,27)
+POP(stack, item)
+POP(stack, item)
+PUSH(4)
+POP(stack, item)
+PUSH(3)
+PUSH(2)
+What will be the bottom most element of the stack?
+a. 4
+25
+3
+26
+
+aoe
+
+83. Consider a stack of size 4 is stack (1,2,3,_)
+
+POP(stack, item)
+
+PUSH(4)
+
+POP(stack, item)
+
+PUSH(3)
+
+POP(stack, item)
+
+What will be the topmost element of the stack?
+a 1
+
+b. 2
+c. 3
+d. 4
+
+84. which of the following options represents the mutable sequence of characters?
+a. StringTokenizer
+b. | StringBuilder
+c. StringBuffer
+d. Bothbandc
+
+85. Suppose you are given an array of 10 elements X [10] = {5, 7, 16, 10, 9, 50, 74, 23, 77, 54}.
+Which of the following statements is CORRECT for linear searching any element from the
+array
+
+a. The array needs to be sorted in ascending order before the linear search
+
+b. The array needs to be sorted in descending order before the linear search
+
+c. The array needs to be sorted in any order (ascending/descending) before the linear
+search
+
+d. The array need not be sorted in any order (ascending/descending) before the linear
+search
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+86.
+
+87.
+
+88.
+
+89.
+
+90.
+
+Sara is given a tree data structure to study and observe Which of the following is a correct
+observation about tree data structures?
+
+a. Anode cannot have more than two child
+
+b. Anode can have only 2 child (left child and right child)
+
+c. Anode can have more than 2 child
+
+d. Anode can have either 2 or no child
+
+Suppose you are given an array(0 - indexed) a [11]={22,31,48,72,90,37,52,60,11,9,27). You
+constructed a binary search tree by passing the array elements one by one (firstly a[0],
+then a[1], then a[2]... up to a[10]). What will be the parent node and left child of node 72?
+
+a. Parent node: 90, left child: 52
+
+b. Parent node: 90, left child: 48
+
+c. Parent node: 48, left child: 52
+
+d. Parent node: 37, left child: 48
+
+Johnny has an array arr[ ]= {18, 32, 25, 41, 63, 11, 45}. He wants to find 18, using binary
+search. What will be the first element that he will get when he starts searching and what
+will be the last element before he gets the desired element?
+
+a. First element: 41, Last element: 32
+
+b. First element: 32, Last element: 32
+
+c. First element: 41, Last element: 18
+
+d. First element: 25, Last element: 32
+
+An internal sorting algorithm is being used for.an array. Which among the following can be
+used?
+
+a. Buckets
+
+b. Cache Memory
+
+c. Main Memory
+
+d. Disk Space
+
+You have an array with 777 numbers. You use linear search to determine whether the
+number 200 is in this. array or not. How many elements of the array will you look at if the
+number 200 is not present in the array
+
+a. 10
+b. 1
+c. 200
+d. 777
+
+91. void fun(node * head)
+
+{
+cout<<head -> next -> data;
+} Head node of a linked list is passed to this function and after running the function gives
+an output of 2, so how the whole linked list will look?
+a. 2->1->3->4
+
+b. 1->2->3->4
+Cc. 4->3->2->1
+d. 4->3->1->2
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+92. Consider the array marks[10] = {99, 75, 85, 43, 22, 63, 69, 74, 92, 81} containing the scores
+of 10 students. Which of the following statements is INCORRECT?
+a. 75 is the Sth highest score in the class
+b. 63 is the 3rd lowest score in the class
+c. 69 is the 7th highest score in the class
+d. 85 is the 2nd highest score in the class
+
+93. Evaluate the following Prefix Expression: 253-*14+2/
+
+a. -15
+b. -9
+c 9
+
+d. 15
+
+94. Which of the following Sorting Algorithms has the same time complexity-for all cases (Best-
+Case, Worst-Case, Average-Case)?
+a. Bubble Sort
+b. Insertion sort
+c. Merge sort
+d. Quick Sort
+
+95. Consider a string and the cost of the string is calculated by.the number of vowels and
+consonants present in the string. Each vowel costs 4 USD and each consonant costs 3 USD.
+What is the cost of the string BinarySearch?
+
+a. 41USD
+b. 42 USD
+c. 43 USD
+d. 44USD
+
+96. Consider a string a = “datastructuresandalgorithms” Which of the following options is
+INCORRECT about the string a?
+
+SubString “a” occurs4 times in the string a
+
+SubString “u” occurs 2 times in the string a
+
+SubString “t” occurs 3 times in the string a
+
+SubString “c” occurs 1 time in the string a
+
+aoon
+
+97. Determine the time complexity for insertion Sort of the given array arr[10] = {"Elements
+will be given"}
+
+a. O(log n)
+b. O(n)
+
+c. O(1)
+
+d. O(n logn)
+
+98. What is the 1's complement of 3?
+
+a. -4
+b. 2
+c. 8
+d. 4
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+99. Predict the output of the given code -
+
+int main() {
+a=5;
+
+while(a==5) {
+print('SOCIAL');
+
+break;
+i
+return @;
+h
+a. SOCIAL is printed unlimited number of times
+b. SOCIAL
+c. Compilation error
+d. SOCIA
+
+100. What is value of a after execution?
+
+#include<stdio.h>
+int main() {
+
+int a = 2++;
+printf("%d",a);
+
+return 0;
+:
+
+a 3
+
+b. Error
+
+c 8
+
+d. 45
+
+101. In a given loop-
+
+i=1;
+while(i<=10)
+t
+
+Statement 1;
+Statement 2;
+1t+;
+
+z
+
+What does i++ operator do?
+
+Increments the value by 1
+Increment the value by 2
+Increment the value till infinite
+
+aoow
+
+Decrement the value
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+102. The output of the following code
+
+void solve() {
+
+int arr[] = {10, 20, 30, 40, X, 90};
+int *ptri1 = arr;
+
+ptrit+;
+
+int *ptr2 = arr + 4;
+
+cout << (*&*ptr2 - *ptr1);
+
+i
+
+is 30. The value of X is
+
+a. 30
+b. 40
+c. 50
+d. 60
+103.
+int main()
+{
+tint arr[1@] = {21,13,17, 32,8,15,19,12,4,25}, ans = @;
+for(int 1 = @; 1 < 10; t++)
+tf(arr[i] & (arr[t] - 1)
+ans + = 1;
+return @;
+}
+What is the value of ans after execution of the above program?
+a. 7
+b. 8
+c 9
+d. 10
+104.
+#include<bits/stdc++.h>
+using namespace std;
+tnt main()
+{
+int m,n;
+cout<<(m&n) ;
+}
+If the output of the program is 4, then what will be the values of m and n?
+a m=4,n=2
+b. m=5,n=6
+c m=4,n=9
+d. m=4,n=8
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+1m: int fun(int n)
+
+if
+
+if(n <= 2)
+
+return n;
+
+return fun(n - 1) + fun(n - 2) + fun(n - 3);
+}
+
+int main()
+
+t
+
+int x = fun(13);
+
+return @;
+
+}
+
+What is the primality of x?
+Prime
+
+Composite
+
+Neither Prime nor composite
+None of these
+
+aoa
+
+106. Consider the following code
+
+for(int 1=0; i<n; t++#)
+
+if (arr[i]%2) continue;
+
+int temp1= 1-1, temp2=it1;
+while(temp1>=@&&arr[temp1 ]%2)temp1--;
+while(temp2<n&&arr [ temp2 ]%2)temp2++;
+I
+
+What is the time complexity of the following code and the maximum number of
+times an index is traversed by the code i.e by the for and the while loop?
+
+a. O(n_), 3 times
+b. O(n), 3 times
+c. O(n), n times
+d. O(2_),1 time
+
+107. How many times the function will be called(excluding the initial) if the value of n is
+
+a)7
+
+b)o int func(int n){
+
+c)-1 if(n==0@)return @;
+return (n-1)*func(n-1);
+
+6,1,1 }
+
+7,0,0
+
+7,0,Indefinite(until its memory is overflowed)
+7,0,Infinite number of times
+
+aoow
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+108.
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+
+t
+
+int n; //Line 1
+
+int k; //Line 2
+
+k=(n%2 == @) ? 10:19; //Line 3
+cout<<k;
+
+}
+
+When the value of nis even, k should have the value of 19. How Line:3,should be
+modified such that the value of k will be 19?
+
+k = (n%2 == 0) : 19710;
+
+k = (n%2 != 0) ? 19:10;
+
+k = (n%2 !=0) ? 10:19;
+
+k = (n%2 == 0) : 10719;
+
+aoa
+
+109. Given a binary tree [5,6,7,12,8,11,null,null,null,9,null,null,14,13,null,null,null]
+
+votd f(Node* root, vector<int> & tra) {
+if (root == NULb)return;
+
+f(root->Lleft, tra);
+
+tra.push-back(root -> value);
+
+Ff(root’-S right, tra);
+
+}
+
+votd, func(Node* root, int val) {
+vector<int>tra;
+
+f(root, tra);
+
+for (int 1 = @; i < tra size(); i++) f
+tf (traf[i] == val) {
+
+if (it1 < tra.size())cout << tra[i + 1];
+else cout << "null";
+
+break;
+}
+}
+}
+What can be the value of the val argument if func(root, val) gives a output of 7?
+a. val=14
+b. val=11
+c. val=13
+d. val=6
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+18, void solve()
+
+t
+
+stack<char>st;
+bool flag = true;
+for (auto it:str) {
+
+else {
+
+else st.pop();
+
+I
+}
+
+cout << (flag? "Fine":
+
+}
+
+string str = "[[][J[][X]”;
+
+tf (it == '[')st.push(it);
+
+if (st.size() == @) (flag = false; break; }
+
+if (st.size())flag = false;
+"Not Fine”);
+
+What would be the character at position X if the output of the following code is Not Fine?
+
+a. J
+
+b. [
+
+c. No character required
+d. BothAandB
+
+111. What is the name of the algorithm used in the following code
+
+Struct {
+
+int data;
+
+struct Node* next:
+Ms
+
+int fun(Node* root)
+t
+
+xX = x ->next;
+y=y -> next -> next;
+
+Node *x = root, *y = root;
+while (x && y&& y -> next) {
+
+if (x =x) {
+return 1;
+}
+}
+return @;
+-
+Two Pointer
+
+FloydOs Cycle-Finding Algorithm
+Slow-Fast Algorithm
+Loop Algorithm
+
+ao>oo
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+112. What is the output of the following code
+
+#include <iostream>
+
+wing namespace std;
+
+long, Long int n = 10;
+
+void solve(Long, Long int &m)
+
+t
+m= 15;
+n = 20;
+m = 24;
+i
+int main() {
+solve(n);
+cout<<n<<endL;
+return 0;
+}
+a. 15
+b. 20
+c. 24
+d. 10
+
+113. What is the time complexity of the following code?
+
+for(int a=1; as=n; at+) {
+a. O(n_) for(int»b=a; b<=n; b+t=a)(//Operation//)
+b. O(nlogn) }
+c. O(n)
+d. 0(2_)
+
+114. What would the below code print?
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+
+t
+
+int b = 3;
+
+float c=10/b;
+cout<<(ceil(c));
+
+return 0;
+
+I
+
+1
+2
+3
+
+aooo
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+115. What is the output of the below code?
+
+int main()
+
+t
+
+int A[10]={1, 2,3,4,5,6,7,8,9,10};
+int ans=@;
+
+for(int 1=0;1<16; i++)
+
+t
+
+if ((A[i] & (A[i]-1)) == @)
+
+ans += 1;
+
+else if((A[t]) & (Af[i] + 1)) == @)
+ans -= 1;
+
+else
+
+ans <<= 1;
+
+}
+
+cout << ans;
+
+return @;
+
+4
+8
+
+16
+32
+
+aoow
+
+116. Consider the following code and identify the output that it will print.
+
+import java.util.*;
+
+public class Main
+
+public static void matn(String[] args) {
+int[] arrayi = f1, 2, 3},
+
+int[] array2 = array1.cLlone();
+
+array2[@] = 10;
+
+int.sum = 0;
+
+for (int.t = 6; 1 < array1.Llength; i++) {
+sum += array1[t];
+
+;
+
+System.out.printLn(sum) ;
+
+}
+
+;
+
+ao» w
+Au BN
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+117. What will be the output of the following Java program?
+
+class X
+t
+
+int a;
+double b;
+}
+
+class Y extends X
+t
+int c;
+
+I
+
+class Output
+{
+
+public static void main(String args|[ ])
+t
+
+X a = new X();
+
+Y b = new Y();
+
+Class obj;
+
+obj = b.getClass();
+System.out.print(obj.tskocalClass());
+}
+
+}
+
+TT
+
+a. O
+b. 1
+c. TRUE
+d. FALSE
+
+118. Find the time:complexity of the following iterative code:
+
+int i=@, j=N; // N is any positive
+integer
+whi le(j>4)
+{
+ist";
+J=5/25
+i
+
+a. O(1)
+
+b. O(N)
+
+c. O(log n)
+
+d. O(sqrt(n))
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+119. What will be the output of the following Java program?
+
+class recursion
+t
+
+int fact(int n)
+{
+
+int result;
+
+Ue 60 == 2),
+return 1;
+result = fact(n - 1) * n;
+return result;
+}
+
+I
+
+class Output
+
+{
+public static void main(String args[ ])
+
+{
+
+recursion obj = new recursion();
+System.out.print(obj.fact(6));
+
+}
+}
+a 1
+b. 30
+c. 120
+d. 720
+
+120. Consider you are tying to set the size of a stack for which this code has been written.
+Identify the output that it will print.
+
+import java.util.Stack;
+
+public class StackExample (
+
+public static void main(String[] args) {
+Stack<String> stack = new Stack<>();
+stack.push("A");
+
+stack.push("B");
+
+stack.push("C");
+
+stack. setSize(2);
+System.out.printLln(stack.size());
+
+t
+}
+
+a. Run-time error
+
+b. Compile time error
+c 2
+
+d. 3
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+121. What will be the output of the following Java program?
+
+import java.io. *;
+public class filesinputoutput
+
+t
+
+public static void main(String[] args)
+
+i
+
+String obj = "abc";
+
+byte b[] = obj.getBytes();
+
+ByteArrayInputStream obj1 = new ByteArrayInputStream(b);
+for (tnt 1=0; 1<2; ++1)
+
+t
+
+int c;
+
+while ((c = obji.read()) != -1)
+
+t
+
+if (i == @)
+
+t
+
+System. out. print(Character. toUpperCase((char)c));
+obj2.write(1);
+
+}
+
+}
+
+System. out.print(obj2);
+
+}
+
+}
+
+#
+
+AaBaCa
+ABCaaa
+AaaBaaCaa
+AaBaaCaaa
+
+aon
+
+122. Which of the following methods will start this thread?
+
+public class MyThread implements Runnable
+
+t
+
+public votd run()
+
+t
+
+// some code here
+
+}
+}
+
+new Runnable(MyThread).run();
+new Thread(MyThread).start();
+
+new Thread(new MyThread()).start();
+new MyThread().run()
+
+aoo0m
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+123. The following code is performing some operations on stack.
+Analyse and identify its output.
+
+import java.util.Stack;
+
+public class StackExampLle {
+
+public static void main(String[] args) f{
+Stack<String> stack = new Stack<>();
+stack.push("Java");
+
+stack. push("ts");
+
+stack.push("fun") ;
+
+String top=stack.peek();
+stack.pop();
+
+stack.push(top. toUpperCase());
+System.out.println(stack. pop());
+
+}
+}
+a. FUN
+b. fun
+c. Fun
+d. compiler error
+
+124. You are working on a scheduling application for managing appointments in a hospital in
+Los Angeles. You need to find all the availabletime slots between a given start time and
+end time, considering existing appointments.
+
+bool tsAvailable(vector<Appointment> appointments, Time
+startTime, Time endTime) {
+
+for (const auto & appointment : appointments)
+
+{
+
+if (appointment.startTime <= endTime && appointment.endTime
+>= startTime)
+
+{
+
+return false;
+
+t
+
+vi
+
+return true;
+
+I
+
+Which of the following approaches can efficiently solve this problem?
+
+a. Using the provided code snippet to check each appointment's availability and gather
+the available time slots.
+
+b. Implementing a breadth-first search algorithm to find the available time slots.
+
+c. Using a priority queue to store appointments and then checking for available time
+slots.
+
+d. Applying the binary search algorithm to search for available times slots efficiently.
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+125. What will be the output of the following code snippet?
+
+#include <iostream>
+
+int main() {
+
+int arr[] = {3, 7, 2, 9, 5};
+int *ptr = arr;
+
+ptr += 3;
+
+std::cout << *ptr << std::endl;
+return @;
+
+I
+
+aooT w
+WONN W
+
+126. If N is passed to this function and the value of N is 7, then what will be printed by this
+
+function?
+
+VOID FUN (INT N)
+{
+IF (N<=@) RETURN
+PRINT N
+FUN(N/2)
+}
+
+a. 731°
+
+b. 137°
+
+c 0731
+
+d. 1370
+
+127. Consider the following code written in cpp and choose the option representing its correct
+output.
+
+#include <vector>
+
+#include <iostream>
+
+int main(){
+
+std::vector<int> nums = {1, 2, 3, 4, 5};
+
+std: :vector<int>::const_iterator it = nums.begin() + 3;
+std::cout << *it << std::endl;
+
+return 0;
+
+I
+
+a. 3
+b. 4
+c 5
+d. Compilation error
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+128.
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+int a,b;
+int c=atb;
+a=c-b;
+b=c-a;
+cout<<a<<" "“<<b;
+}
+If 45 is the output of the program, then what will be the values of a and b?
+
+a. a=5, b=4
+
+b. a=4, b=5
+
+c. a=4, b=4
+
+d. a=5, b=5
+
+129.
+#include<bits/stdc++.h>
+using namespace std;
+int matn()
+{
+tnt arr[ J={1, 2,34}; //Line 1
+for(int i=1; i<=5; i+=2) //Line 2
+t
+cout<<arr[i]<<"\"; //Line 3
+-
+}
+To get the output as 2 4, which one of the line should be changed?
+
+a. Linel
+
+b. Line2
+
+c. Line3
+
+d. No change is required
+
+130. Find the output of the given code:
+
+int matn() {
+int arr[8]={1, 2,3,4,5,6);
+cout<<arr[2]<<" "“<<arr[6]<<" “<<arr[8];
+
+return @;
+}
+
+a. 2,6,0
+
+b. 2, 6, garbage value
+
+c. 3,6,1
+
+d. 3,0, garbage value
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+131.
+
+#incLlude<bits/stdc++.h>
+using namespace std;
+
+int main()
+
+{
+
+int a = 5; //Line 1
+
+int* const p = &a; //Line 2
+cout<<*p+1; //Line 3
+
+}
+If the user wants to get an output of 6, then which line he should modify?
+a. Linel
+b. Line2
+c. Line 3
+d. No change is required
+
+132. Which of the following technique is used in the following code:
+
+Long Long fun(Long Long x, Long Long y) {
+if(y == @)
+
+return 1;
+
+Long Long res = fun(x, y/2);
+
+if (y%2)
+
+return res * res * x;
+
+else
+
+return res * res;
+
+}
+
+Matrix Exponentiation
+Two Pointer Approach
+Binary Exponentiation
+Z-function
+
+aoom
+
+133. int main() {
+vector<int> arr = {21,13,17,32,8,15,19,12,4,25};
+for (int 1 = @; 1 < 10; i++)
+tf (arr[i] % 2 == 1)
+reverse(arr.begin(), arr.begin() + 1);
+for (int it : arr)
+
+cout << i << 3
+return @; }
+
+What will be the output of the above code?
+4128 321713 21151925
+4128 322119171513 25
+412198 3217 21131525
+4812 32 211317151925
+
+qaoo0o
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+134. Given the following code, what is the value of A and B?
+
+int main() {
+
+int x =A, y = B;
+priority_queue<int>pq; pq.push(x);
+pq.push(y);
+
+int iter = 4;
+while (iter--) {
+int a = pq.top();
+pq.pop();
+
+int b = pq.top();
+pq.pop();
+
+int c =a +b;
+pq.push(a);
+pq.push(b);
+pq.push(c);
+
+ie
+cout << pq.top() << " "5
+pq.pop();
+cout << pq.top() << "9";
+i
+If the output of the following code is 69 43
+a 9,8
+b. 9,9
+c. 43,69
+d. 69,43
+135.
+#include<bits/stdc++.h>
+using. namespace std;
+int main()
+{
+string s,si;
+int n=s.size();
+sit=s[@]; s1+=s[n-1];
+cout<<si1;
+}
+If the output of the program is "fd" then what will be the initial value of string s?
+a. s="abcdf"
+b. s="fdabcs"
+c. s="fbcd"
+d. s="dfcb"
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+136. What will be the value of S at the end of the program?
+
+void fun(string &S)
+
+{
+
+for(int t=n-2; 1>=@; 1--)// n = Length of string
+t
+
+if(S[i] < S[i + 1])
+
+t
+
+breakpoint1 = 1;
+
+break;
+
+i
+
+i
+
+if(breakpoint1 != -1)
+
+{
+
+for(int t=n-1; 1>=0; i--)
+
+{
+
+if(S[t] > S[breakpoint1])
+
+t
+
+breakpoint2 = 1;
+
+break;
+
+i
+
+i
+
+swaps (S[breakpotntL], Sfbreakpoint2]);
+i
+
+reverse(S.begin() + breakpoint1 + 1, S.end());
+I
+
+int matn()
+
+{
+
+string S = "ghijlt";
+
+for(int 1=1; i<=5; i++)
+
+fun(s);
+
+i
+
+ghiiil
+ehilii
+ghijii
+ghliij
+
+qQooo
+
+137.
+#incLude<bits/stdc++. h>
+
+using namespace std;
+
+int main() {
+
+int m,n,
+
+cout<<(m*@)<<" "<<(n*1);
+
+}
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+The program gives an output of 3 4, then what will be the values of m and n?
+
+aoo
+
+m=4,n=4
+m=5,n=5
+m=3,n=4
+m=3,n=5
+
+138. Given the following code:
+
+139.
+
+a.
+b.
+é
+
+d.
+
+aoe
+
+int Lb = @, ub=hn - 1;
+int k = 17;
+int iter = @;
+while (Lb <= ub) {
+itert+;
+tf (a[lb] + afub] == k) {
+Lb++; ub--;
+i
+else if (a[Llb] + af[ub] «< k)
+Lb++;
+else
+ub--;
+
+}
+
+What would be the value of iter, a[lb},and a[ub] when the first time the if condition
+is satisfied for the sorted array [1 4 6 7 10.11 21) withn=7
+
+7,7,10
+
+5,7,10
+
+5,6,11
+
+4,6,11
+
+#include<bits/stdc++.h>
+
+ustng namespace std;
+
+tnt main() {
+
+int n=5; //Line 1
+
+int x; //Line 2
+
+stack<int>st; //Line 3
+
+for(int i=O@;i<n;it+) //Line 4 {
+cin>>x; //Line 5
+
+st.insert(x); //Line 6
+
+}
+cout<<st.stze(); //Line 7 }
+
+How Line 6 should be modified so that the output is 5?
+st.insert_front();
+
+st.push_front();
+
+st.push();
+
+The Line should not be modified.
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+140. Which of the following traversal approaches is used in the given function?
+
+void fun(int s, vector<int>&adj,
+
+bool visited[]) {
+
+visited[s] = true;
+
+for(int 1 = 0; 1 < adj[s].size(); ++i) {
+if(visited[adj[s][i]] == false)
+fun(adj[s][i]);
+
+}
+
+}
+
+Level Order Traversal
+Breadth First Search
+Depth First Search
+Inorder Traversal
+
+aoa
+
+141. Consider the Algorithm below:
+
+for i = 1 to |[v/-1
+
+for each edge(u, v)in &
+
+relax(u, v, w(u, v))
+
+for each edge(u, v) in —
+
+if can still relax that edge, --cycle found
+
+This is the algorithm for which of the Graph algorithms?
+
+a. Dijkstra's Algorithm
+b. Bellman Ford
+
+c. DFS
+
+d. BFS
+
+142.
+#include<bits/stdc++. h>
+
+using namespace std;
+int main()
+
+{
+
+string s;
+
+int sz = s.size();
+cout << s[sz / 2];
+
+}
+
+If the program gives an output of 'a', then what will be the value of s?
+
+a. "“aabc"
+b. "aabac"
+c. "caac"
+d. "cacac"
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+143. #include <bits/stdct+.h>
+using namespace std;
+
+bool fun(string s, int j, int i) {
+return s[j] == s[i];
+
+}
+
+int main() {
+
+string s;
+
+cin >> S;
+
+int n = s.stze();
+
+int R =n - 7;
+
+int count = @;
+
+for (int t1=0; i<n; i++) {
+tf (fun(s,i,i+k)) count++;
+
+R--5
+}
+cout << count;
+I
+If the program gives an output of 4, then which of the given strings is the correct input?
+a. "“abcdabdc"
+b. "adfcghadderdd"
+c. "“aaaaaaaa"
+d. "“abcdaddad"
+
+144. Which of the sorting technique is used in the following code:
+
+void fun(vector& a){
+
+int maxx = *max_eLement(a.begin(), a.end());
+int min = *min_element(a.begin(), a.end());
+int r= maxx - min + 1;
+
+vector<int> hash(r), brr(a.size());
+
+for (int i = 6; 1 < a.size(); i++)
+hash[a[i] - min]++;
+
+for (int i = 1; i < hash.size(); i++)
+hashfi] += hash[i - 1];
+
+for (int t = a.size() - 1; i >= 0; i--){
+brr[hash[a[t] - min] - 1] = afi];
+
+hash[a[i] - min]--;
+
+}
+
+for (int 1 = @; 1 < a.size(); i++)
+
+afi] = brr[t];
+
+7
+
+a. Selection Sort
+b. Count Sort
+c. DNF Sort
+d. Heap Sort
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+145. #include <bits/stdct+.h>
+using namespace std;
+
+int main() {
+priortity_queue<int> pq;
+
+int n, R;
+
+cin >> n >> R;
+
+int arr[n];
+
+for (int 7 = @; 1 < n; i++)
+cin >> arr[t];
+
+for (int 71 = @; i <n; itt) {
+pq.push(arr[i]);
+
+if (pq.size() == Rk) pq.pop();
+a
+
+cout << pq.top();
+
+I
+
+If k = 2 and the output of the program is 5, then which of the given arrays isthe correct input?
+
+a. arr{] = {1,2,3,4,5}
+
+b. arr[] = {6,5,3,2,1}
+
+c. arr[] = {4,6,7,8,5,9}
+d. arr[] = {9,10,5,23,12}
+
+146. Given the function to find the nth catalan number using dynamic programming. Some
+lines are missing in the code. Complete the code by choosing the correct option.
+
+int fun(int n) £
+
+int []dp = new int [n+1];
+
+dp[@]J=dp[1]=1;
+
+// complete the code so to find the nth catalan number
+print(dp[n])3. }
+
+Input-4
+
+Output-14
+
+a. for(int i=2;i<n;i++){
+int ans=0;
+for(int j=0;j<i;j++){
+anst=dp[j]*dpli-j-1];
+}
+dp[i]=ans;
+}
+
+b. for(int i=2;i<=n;i++){
+int ans=0;
+for(int j=0;j<i-1;j++){
+ans+=dp[j]*dpli-j-1];
+}
+dp[i]=ans;
+}
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+c. for(int i=2;i<=n;i++){
+int ans=0;
+for(int j=0;j<i;j++){
+anst=dp[j]+dpli-j-1];
+}
+dp[iJ=ans;
+}
+
+d. for(int i=2;i<=n;i++){
+int ans=0;
+for(int j=0;j<i;j++){
+ans+=dp[j]*dpli-j-1];
+}
+dp[i]=ans;
+}
+
+147.
+#include<bits/stdc++. h>
+
+using namespace std;
+
+int main() {
+
+int x;
+
+switch(x) {
+
+case 1:
+
+cout << "This ts not.default” << endl;
+case 2:
+
+cout << "This ts not’ default" << endl;
+break;
+
+default:
+
+cout << "This is default" << endl;
+
+I
+I
+
+For which value of x will the program give an output of 'This is not default’ twice?
+a. ifx=1
+
+b. ifx=1orx=2
+
+c. ifx=0
+
+d. None of these
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+148.
+#include <bits/stdc++.h>
+
+ustng namespace std;
+int32_t main(){
+tos_base::sync_with_stdio(false);
+cin.tie(NULL) ;
+
+int A[1@];
+
+for(int 1=@; 1<10;i++)
+cin >> A[i];
+
+for(int 1 = @; 1<9;1++)
+
+{
+
+for(int j=it1; j<10; j++)
+{
+
+int k=1,l=7;
+
+while(k<@)
+
+{
+
+swap(A[k], A[L]);
+
+k +=1 ;
+
+L -=1;
+
+I
+
+}
+
+t
+
+for(int 1 = 0; 4<1@;i++)
+
+cout << Afi]«<< ;
+return @;
+
+i
+
+The above code gives the output [7, 9, 14, 16, 11, 9, 15, 19, 8, 3].
+What is the original array?
+
+a. [10, 15, 8, 16)9, 11, 14, 3, 9, 7]
+
+b. [10, 15, 16)8, 9, 7, 14, 3, 9, 11]
+
+c. [19, 15, 16, 8)9, 11, 14, 3, 9, 7]
+
+d. /[19, 15, 16, 8, 7, 11, 14, 3,9, 9]
+
+149.
+vector<vector<int>> xy(n, vector<int>(m, @));
+
+for (int j = @; j<n; j++) ( for (int j=@; j < m; j+t)
+{
+
+if (i==@ [|] j==0) xy[ij[j] =1;
+
+else xyfiJ[j] = xy[t - 1][j] + xy[iJ[j - 1];
+
+}
+
+}
+
+Which of the vector look like after i = 1 and j = 2 is executed, if n = 5, m = 6?
+
+a t Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_ with Anu
+
+a > Join Our Communities for more Informative Content : https://linktr.ee/Learn with Anu
+
+150. void func(Node *root)
+{
+stack<Node *> st;
+st.push(root) ;
+while(!st.empty())
+lode *curNode=st.top();
+st.pop();
+
+cout << curNode->data <<’ ‘;
+tf(curNode->right != NULL)
+st. push(curNode->right) ;
+
+tf (curNode->Left != NULL)
+st.push(curNode->Left);
+
+I
+
+}
+
+The above function outputs: [1, 2, 6, 3, 4, 5]
+What should be the array that the root pointer points to?(-1 refers to no child)
+a. [1, 2, 6,-1, -1, -1, 3, 4, -1, -1, 5, -1, -1]
+b. [1, 2, -1, 6, -1, -1, 4, 3, -1, -1, 5, -1, -1]
+c. [1, 2, -1, 6, -1, -1, 3, 4, -1, -1, 5, -1,-1]
+d
+
+151.
+int main(). {
+
+string.a = “gcdhe";
+int j = 10000, and = @;
+for (charc:a)f{
+
+ans += j * (c - ‘a');
+j\/= 10;
+I
+return @;
+I
+What. will be the value of ans after execution of the Program?
+a. 57263
+b.. 62374
+c. 73485
+
+d. None of these
+
+a > Join our Communities to Stay Updated with the Latest Internship and Job Opportunities, Preparation
+Tips and Free Materials, & a lot more !
+Access all resources : https://linktr.ee/Learn_with Anu
+
