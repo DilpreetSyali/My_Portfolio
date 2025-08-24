@@ -11,6 +11,39 @@
 
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        .role-text {
+            font-family: 'Sigmar', serif; 
+            font-size: 60px; 
+            color: rgb(72, 239, 239); 
+            font-weight: bold; 
+            margin: 0;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        /* Slide out (right to left erase) */
+        .slide-out {
+            animation: slideOut 0.4s forwards;
+        }
+
+        /* Slide in (left to right write) */
+        .slide-in {
+            animation: slideIn 0.4s forwards;
+        }
+
+        @keyframes slideOut {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+
+        @keyframes slideIn {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+    </style>
 </head>
 <body style="background-color: rgb(41, 39, 39);"> 
 
@@ -57,26 +90,77 @@
     </div> 
 
     <div style="position: absolute; bottom: 40%; left: 100px;">
-        <a href="https://drive.google.com/file/d/1Q5yQjPD6oJoPvz4jsEUV4Q6-v2UFCSQr/view?usp=drive_link" target="_blank">
+        <a href="https://drive.google.com/file/d/1g2KgyHZlgNJ96FyuOT_86okMir9Ui7xS" target="_blank">
             <i class="fa-solid fa-file" style="font-size: 30px; color: white;"></i>
         </a>
     </div>   
             
-    
+    <!-- Intro Section -->
     <div style="position: absolute; top: 20%; left: 200px; max-width: 600px;">
         <p style="font-family: 'Sigmar', serif; font-size: 30px; 
                   color: rgb(221, 215, 215); letter-spacing: 2px; margin-bottom: 10px;"><br>
             HI! I AM <b style="color: rgb(72, 239, 239);">DILPREET</b>
         </p>
         
-        <p style="font-family: 'Sigmar', serif; font-size: 40px; 
-                  color: rgb(72, 239, 239); font-weight: bold; margin: 0;">
-            PROGRAMMER.
-        </p>
-        
+        <!-- Smooth Sliding Text -->
+        <p id="role" class="role-text">Programmer</p>
     </div>
 
+    <!-- Profile Image -->
     <img src="me.jpg" style="position:absolute ; top:20%;right:200px;height:50%;"> </img>
-    
+
+    <!-- Smooth Sliding Script -->
+    <script>
+        const roles = ["Programmer", "Web Developer", "AI-ML Enthusiast"];
+        const roleElement = document.getElementById("role");
+        let roleIndex = 0;
+
+        function showNextRole() {
+            roleElement.classList.remove("slide-in");
+            roleElement.classList.add("slide-out");
+
+            setTimeout(() => {
+                roleIndex = (roleIndex + 1) % roles.length;
+                roleElement.textContent = roles[roleIndex];
+
+                roleElement.classList.remove("slide-out");
+                roleElement.classList.add("slide-in");
+            }, 800);
+        }
+
+        roleElement.classList.add("slide-in");
+        setInterval(showNextRole, 3000);
+
+        // --- Swipe Navigation ---
+        const pages = ["index.html", "about.html", "skills.html", "projects.html"];
+        let currentPage = window.location.pathname.split("/").pop() || "index.html";
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        function handleSwipe() {
+            const minSwipeDistance = 50; 
+            let pageIndex = pages.indexOf(currentPage);
+
+            if (touchEndX < touchStartX - minSwipeDistance) {
+                // Swipe left → Next page
+                let nextPage = pages[(pageIndex + 1) % pages.length];
+                window.location.href = nextPage;
+            } 
+            if (touchEndX > touchStartX + minSwipeDistance) {
+                // Swipe right → Previous page
+                let prevPage = pages[(pageIndex - 1 + pages.length) % pages.length];
+                window.location.href = prevPage;
+            }
+        }
+
+        document.addEventListener("touchstart", e => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        document.addEventListener("touchend", e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+    </script>
 </body>
 </html>
