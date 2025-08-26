@@ -1,57 +1,114 @@
 <html>
-    <head>
-        <title>
-            About
-        </title>
-            <!-- Google Fonts -->
+<head>
+    <title>About</title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
-    </head>
-        <body style="background-color: rgb(41, 39, 39);"> 
 
-            <!-- Navigation Links -->
-            <div style="position:absolute; top: 10px; right: 20px; font-size:20px ; font-family: 'Poppins', sans-serif;">
-                <b>
-                    <a href="index.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">Home</a>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            background-color: rgb(41, 39, 39);
+            margin: 0;
+            padding: 0;
+        }
+
+        .scroll-inline {
+            display: inline-block;
+            margin-left: 15px;
+            color: aqua;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            vertical-align: middle;
+            animation: bounce 1.5s infinite;
+        }
+
+        .scroll-inline i {
+            margin: 0 5px;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Links -->
+    <div style="position:absolute; top: 10px; right: 20px; font-size:20px ; font-family: 'Poppins', sans-serif;">
+        <b>
+            <a href="index.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">Home</a>
+
+            <a href="about.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">About</a>
+            
+            <a href="skills.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">Skills</a>
+            
+            <a href="projects.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
+               onmouseover="this.style.textDecoration='underline';" 
+               onmouseout="this.style.textDecoration='none';">Projects</a>
+        </b>
+    </div> 
+
+    <div style=" text-align:center; margin-top: 50px;">
+        <p style="font-family: 'Sigmar', serif; font-size: 30px;color: beige;"> <span style="color: rgb(104, 225, 219); font-family: 'Poppins', sans-serif; font-size: 18px; margin-left:15px;">
+                Keep cursor on icons to know subject name !
+            </span><br>LANGUAGES:   </P> 
+           
+
+        <img src="c.jpeg" alt="C" title="C" style="width: 200px; margin: 80px;"> 
+        <img src="cpp.jpeg" alt="C++" title="C++" style="width: 200px; margin: 80px;">
+        <img src="java.jpeg" alt="Java" title="Java" style="width: 200px; margin: 80px;">
+        <img src="python.png" alt="Python" title="Python" style="width: 200px;margin: 80px"> <br>
+        <img src="js.jpeg" alt="Javascript" title="Javascript" style="width: 200px; margin: 80px;">
+        <img src="css.jpeg" alt="CSS" title="CSS" style="width: 150px; margin: 80px;">
+        <img src="H.jpeg" alt="HTML" title="HTML" style="width: 200px; margin: 80px;">
+
+        <!-- DATABASE centered with scroll indicator beside -->
+        <div style="text-align: center;">
+            <p style="display:inline-block; font-family: 'Sigmar', serif; font-size: 30px; color: beige; margin:0;">
+                DATABASE:
+            </p>
+            <span class="scroll-inline">
+                <i class="fa-solid fa-computer-mouse"></i>
+                Scroll down 
+                <i class="fa-solid fa-arrow-down"></i>
+            </span>
+        </div>
+
+        <br>
+        <img src="sql.jpeg" alt="MySQL" title="ML" style="width: 200px; margin: 80px;"> 
+        <img src="postgreSQL.png" alt="PostgreSQL" title="AI" style="width: 200px; margin: 80px;">
+
+        <p style="font-family: 'Sigmar', serif; font-size: 30px;color: beige;">VERSION CONTROL: </P>
+        <img src="g.jpeg" alt="Git" title="GIT" style="width: 300px; margin: 80px;"> 
+        <img src="gh.jpeg" alt="GitHub" title="GitHub" style="width: 150px; margin: 80px;">
+
+        <p style="font-family: 'Sigmar', serif; font-size: 30px;color: beige;">OPERATING SYSTEM: </P>
+        <img src="windows.png" alt="window" title="window" style="width: 300px; margin: 80px;"> 
+        <img src="linux.png" alt="linux" title="linux" style="width: 150px; margin: 80px;">
         
-                    <a href="about.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">About</a>
-                    
-                    <a href="skills.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">Skills</a>
-                    
-                    <a href="projects.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">Projects</a>
-                </b>
-            </div> 
-                <div style=" text-align:center; margin-top: 50px;">
-                    <p style="font-family: 'Sigmar', serif; font-size: 30px;color: beige;">LANGUAGES: </P>
-                    <img src="c.jpeg" alt="C" title="C" style="width: 200px; margin: 80px;"> 
-                    <img src="cpp.jpeg" alt="C++" title="C++" style="width: 200px; margin: 80px;">
-                    <img src="java.jpeg" alt="Java" title="Java" style="width: 200px; margin: 80px;">
-                    <img src="sql.jpeg" alt="SQL" title="SQL" style="width: 200px;margin: 80px"> <br>
-                    <img src="js.jpeg" alt="HTML" title="HTML" style="width: 200px; margin: 80px;">
-                    <img src="css.jpeg" alt="CSS" title="CSS" style="width: 150px; margin: 80px;">
-                    <img src="H.jpeg" alt="JavaScript" title="JavaScript" style="width: 200px; margin: 80px;">
 
-                    <p style="font-family: 'Sigmar', serif; font-size: 30px;color: beige;">TECHNOLOGIES: </P>
-                        <img src="ML.jpeg" alt="Machine Learning" title="ML" style="width: 200px; margin: 80px;"> 
-                        <img src="AI.jpeg" alt="Artificial Intelligence" title="AI" style="width: 200px; margin: 80px;">
-
-                    <p style="font-family: 'Sigmar', serif; font-size: 30px;color: beige;">TOOLS: </P>
-                        <img src="g.jpeg" alt="Git" title="GIT" style="width: 300px; margin: 80px;"> 
-                        <img src="gh.jpeg" alt="GitHub" title="GitHub" style="width: 150px; margin: 80px;">
-                        <img src="vs.jpeg" alt="VS Code" title="VS Code" style="width: 150px; margin: 80px;"> 
-                        <img src="co.jpeg" alt="Google Collab" title="Google Collab" style="width: 200px; margin: 80px;">
-                        <img src="jn.jpeg" alt="Jupyter Notebook" title="Jupyter Notebook" style="width: 100px; margin: 80px;">
-                    
-                </div>
-
-
-            </body>
+        <p style="font-family: 'Sigmar', serif; font-size: 30px;color: beige;">CORE CONCEPTS: </P>
+        <img src="DSA.png" alt="Data Structures & Algorithms" title="Data Structures & Algorithms" style="width: 300px; margin: 80px;"> 
+        <img src="OOD.png" alt="Object-Oriented-Design" title="Object-Oriented-Design" style="width: 250px; margin: 80px;">
+        <img src="DBMS.png" alt="Database Management System" title="Database Management System" style="width: 300px; margin: 80px;"> 
+        <img src="CN.png" alt="Computer Networks" title="Computer Networks" style="width: 250px; margin: 80px;">
+        <img src="ML.jpeg" alt="ML" title="Machine Learning" style="width: 300px; margin: 80px;"> 
+        <img src="SDLC.png" alt="Software Development Life Cycle" title="SDLC" style="width: 250px; margin: 80px;">
+    </div>
+</body>
+</html>

@@ -1,61 +1,403 @@
+<!-- FontAwesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <html>
-    <head>
-        <title>
-            About
-        </title>
-            <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
-    </head>
-        <body style="background-color: rgb(41, 39, 39);"> 
+<head>
+  <title>About</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-            <!-- Navigation Links -->
-            <div style="position:absolute; top: 10px; right: 20px; font-size:20px ; font-family: 'Poppins', sans-serif;">
-                <b>
-                    <a href="index.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">Home</a>
-        
-                    <a href="about.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">About</a>
-                    
-                    <a href="skills.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">Skills</a>
-                    
-                    <a href="projects.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-                       onmouseover="this.style.textDecoration='underline';" 
-                       onmouseout="this.style.textDecoration='none';">Projects</a>
-                </b>
-            </div> 
-            <div style="position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%);
-            text-align: left; width: 80%; max-width: 800px; padding: 20px;">
-            <p style="font-family: 'Sigmar', serif; font-size: 20px; 
-                    color: rgb(241, 249, 249); margin: 0; line-height: 1.6;">
-                Hi, I’m <span style="color:aqua; font-size:30px;">Dilpreet Kaur Syali!</span> <br><br>
+  <style>
+    body {
+      background-color: rgb(41, 39, 39);
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      overflow-x: hidden;
+    }
 
-                I am a Computer Science Engineering student at Graphic Era University, passionate about technology, 
-                problem-solving and innovation.<br> 
-                With a strong foundation in Data Structures & Algorithms ,AI-ML and Full-Stack Development, 
-                I enjoy building impactful projects that solve real-world problems.<br><br>
+    /* Navigation */
+    .navbar {
+      text-align: right;
+      padding: 20px 40px;
+      font-size: 20px;
+      background: transparent;
+    }
+    .navbar a {
+      margin-right: 80px;
+      text-decoration: none;
+      color: rgb(221, 215, 215);
+      transition: 0.3s;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
 
-                As an enthusiastic programmer, I have solved 200+ problems across platforms like <br>
-                <b>LeetCode, GeeksforGeeks and Codeforces.</b><br><br> 
-                
-                I thrive in coding challenges and technical communities, where I mentor and collaborate 
-                with like-minded individuals.<br><br>
+    /* About Section */
+    .about-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 120px 10% 60px;
+      gap: 40px;
+    }
+    .about-text {
+      max-width: 600px;
+      font-size: 18px;
+      line-height: 1.6;
+      font-family: 'Sigmar', serif;
+    }
+    .about-text span {
+      color: aqua;
+      font-size: 30px;
+    }
+    .about-img {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+      display: block;
+      margin: 0 auto;
+    }
 
-                I am always eager to learn new technologies and expand my expertise.
-            </p>
+    /* ✅ Scroll Down Indicator */
+    .scroll-down {
+      margin-top: 15px;
+      text-align: center;
+      color: aqua;
+      font-size: 16px;
+      animation: bounce 2s infinite;
+    }
+    .scroll-down i {
+      margin: 0 5px;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(6px); }
+    }
 
+    /* Stats Section */
+    .stats-section {
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      margin: 80px auto 120px;
+      text-align: center;
+    }
+    .stat-box {
+      font-size: 120px;
+    }
+    .stat-box h2 {
+      font-size: 70px;
+      font-weight: 700;
+      margin: 0;
+      color: aqua;
+    }
+    .stat-box p {
+      margin: 5px 0 0;
+      color: #ccc;
+      font-size: 16px;
+    }
 
-        </div>
-             <img src="Dilpreet.jpg" alt="Dilpreet Kaur Syali"
-            style="position: absolute; top: 50%; right: 10%; transform: translateY(-50%);
-            width: 500px; height: 500px; border-radius: 50%; object-fit: cover;
-            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);">
+    /* Education Timeline */
+    .timeline-box {
+      background-color: #1e1e2e;
+      padding: 40px 30px;
+      border-radius: 12px;
+      width: 50%;
+      margin: 0 auto 80px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
 
-    
+    .education-title {
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Sigmar', serif;
+      font-weight: 600;
+      margin: 60px 0 20px;
+      color: white;
+    }
+
+    .education-title i {
+      font-size: 36px;
+      margin-right: 10px;
+      color: aqua;
+    }
+
+    .timeline {
+      position: relative;
+      margin: auto;
+      width: 80%;
+      padding: 20px 0 60px;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 3px;
+      height: 100%;
+      background: aqua;
+    }
+
+    .timeline-item {
+      position: relative;
+      width: 45%;
+      margin: 40px 0;
+    }
+    .timeline-item.left {
+      text-align: right;
+      left: 0;
+    }
+    .timeline-item.right {
+      left: 55%;
+    }
+
+    /* Dots */
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      top: 12px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: aqua;
+      z-index: 2;
+    }
+    .timeline-item.left::before {
+      right: -61px;
+    }
+    .timeline-item.right::before {
+      left: -61px;
+    }
+
+    .timeline-item h3 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .timeline-item p {
+      margin: 5px 0;
+      font-size: 15px;
+      color: #ccc;
+    }
+
+    .date {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      color: #aaa;
+      margin: 6px 0;
+      justify-content: flex-end;
+    }
+    .timeline-item.right .date {
+      justify-content: flex-start;
+    }
+
+    .view-more {
+      margin-top: 6px;
+      display: inline-block;
+      color: aqua;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .view-more:hover {
+      text-decoration: underline;
+    }
+
+    /* Floating Bulge Button */
+    .float-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: aqua;
+      color: #111;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    }
+    .float-btn:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 6px 18px rgba(0,0,0,0.5);
+    }
+
+    /* Popup Modal */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0; 
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    .popup-content {
+      background: #1e1e2e;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 400px;
+      text-align: center;
+      color: #fff;
+      outline: none;
+      z-index: 1000;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    }
+
+    .close-btn {
+      margin-top: 15px;
+      background: aqua;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <div class="navbar">
+    <b>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+    </b>
+  </div>
+
+  <!-- About Section -->
+  <div class="about-section">
+    <div class="about-text">
+      <p>
+        Hi, I’m <span>Dilpreet Kaur Syali!</span><br><br>
+        I am a Computer Science Engineering student at Graphic Era University, passionate about technology, 
+        problem-solving and innovation.<br> 
+        With a strong foundation in Data Structures & Algorithms, AI-ML and Full-Stack Development, 
+        I enjoy building impactful projects that solve real-world problems.<br><br>
+
+        As an enthusiastic programmer, I have solved 200+ problems across platforms like 
+        <b>LeetCode, GeeksforGeeks and Codeforces.</b><br><br>
+
+        I thrive in coding challenges and technical communities, where I mentor and collaborate 
+        with like-minded individuals.<br><br>
+
+        I am always eager to learn new technologies and expand my expertise.
+      </p>
+    </div>
+    <div>
+      <img src="Dilpreet.jpg" alt="Dilpreet Kaur Syali" class="about-img">
+
+      <!-- ✅ Scroll Down Indicator -->
+      <div class="scroll-down">
+        <i class="fas fa-computer-mouse"></i>
+        <span>Scroll down</span>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="stats-section">
+    <div class="stat-box">
+      <h2>08.39+</h2>
+      <p>Aggregate CGPA</p>
+    </div>
+    <div class="stat-box">
+      <h2>07+</h2>
+      <p>Projects</p>
+    </div>
+    <div class="stat-box">
+      <h2>03+</h2>
+      <p>Months Experience</p>
+    </div>
+  </div>
+
+  <!-- Education Section -->
+  <div class="education-title">
+    <i class="fas fa-graduation-cap"></i> Education
+  </div>
+
+  <div class="timeline-box">
+    <div class="timeline">
+
+      <div class="timeline-item left">
+        <h3>Class 10th</h3>
+        <p>S.T Francis Convent School, CBSE<br>Agra, U.P.</p>
+        <div class="date"><i class="far fa-calendar-alt"></i> 2019</div>
+        <a href="#" class="view-more">View More →</a>
+      </div>
+
+      <div class="timeline-item right"> 
+        <h3>Class 12th</h3>
+        <p>SSAV Vidyapeeth, CBSE<br>Agra, U.P.</p>
+        <div class="date"><i class="far fa-calendar-alt"></i> 2021</div>
+        <a href="#" class="view-more">View More →</a>
+      </div>
+
+      <div class="timeline-item left">
+        <h3>College</h3>
+        <p>Graphic Era Deemed University<br>Dehradun, Uttarakhand</p>
+        <div class="date"><i class="far fa-calendar-alt"></i> 2022 - 2026</div>
+        <a href="#" class="view-more">View More →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Popup Modal -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2 id="popup-title"></h2>
+      <p id="popup-text"></p>
+      <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script>
+    function openPopup(title, text) {
+      document.getElementById("popup-title").innerText = title;
+      document.getElementById("popup-text").innerText = text;
+      document.getElementById("popup").style.display = "flex";
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+
+    document.querySelectorAll(".view-more").forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        if (this.closest(".timeline-item").querySelector("h3").innerText.includes("10th")) {
+          openPopup("Class 10th", "S.T Francis Convent School, CBSE\nPercentage: 90.8%");
+        } 
+        else if (this.closest(".timeline-item").querySelector("h3").innerText.includes("12th")) {
+          openPopup("Class 12th", "SSAV Vidyapeeth, CBSE\nPercentage: 80.5%");
+        } 
+        else if (this.closest(".timeline-item").querySelector("h3").innerText.includes("College")) {
+          openPopup("College", "Graphic Era University\nCGPA: 8.39 (till now)");
+        }
+      });
+    });
+  </script>
+  
+</body>
 </html>

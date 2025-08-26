@@ -42,7 +42,8 @@
             text-decoration: underline;
             color: aqua;
         }
-                .projects-grid {
+
+        .projects-grid {
             display: flex;
             flex-wrap: wrap;
             justify-content: center; /* Centers project cards horizontally */
@@ -50,6 +51,23 @@
             padding: 40px;
             max-width: 1200px;
             margin: auto;
+        }
+
+        .scroll-down {
+        margin-top: 15px;
+        text-align: center;
+        color: aqua;
+        font-size: 16px;
+        animation: bounce 2s infinite;
+        }
+
+        .scroll-down i {
+        margin: 0 5px;
+        }
+        
+        @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(6px); }
         }
 
         .project-card {
@@ -144,6 +162,16 @@
             <img src="gitlab.jpeg" alt="GitLab Automation">
             <h3>GitLab Automation</h3>
             <a href="https://github.com/DilpreetSyali/skills-introduction-to-github" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="simpLang.png" alt="GitLab Automation">
+            <h3>simpLang</h3>
+            <a href="https://github.com/DilpreetSyali/simpLang" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="networks.png" alt="Chatroom using TCP IP">
+            <h3>Chatroom using TCP-IP</h3>
+            <a href="https://github.com/DilpreetSyali/Chatroom-using-TCP-IP" target="_blank">View on GitHub</a>
         </div>
     </div>
 

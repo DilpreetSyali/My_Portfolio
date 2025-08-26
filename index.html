@@ -12,7 +12,77 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <!-- ✅ Firebase SDK only -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+      import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
+
+      // ✅ Your Firebase config
+      const firebaseConfig = {
+        apiKey: "AIzaSyCQxA9M8Sy-C5QEkQSwI3Z5_iX5PqkJ-n0",
+        authDomain: "portfolio-6f230.firebaseapp.com",
+        projectId: "portfolio-6f230",
+        storageBucket: "portfolio-6f230.firebasestorage.app",
+        messagingSenderId: "266371983593",
+        appId: "1:266371983593:web:d35e05de5e5ec7b682e878",
+        measurementId: "G-PP8QGG3RML"
+      };
+
+      // ✅ Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+
+      // ✅ Handle form submission (Firestore only)
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.getElementById("contactForm");
+        if (form) {
+          form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            const name = e.target.name.value;
+            const email = e.target.email.value;
+            const phone = e.target.phone.value;
+            const message = e.target.message.value;
+
+            try {
+              await addDoc(collection(db, "contacts"), {
+                name,
+                email,
+                phone,
+                message,
+                timestamp: new Date()
+              });
+
+              form.reset();
+
+              // ✅ Close contact modal
+              closeModal();
+
+              // ✅ Show success popup
+              const popup = document.getElementById("successPopup");
+              popup.style.display = "flex";
+
+              // ✅ Auto close after 3s
+              setTimeout(() => {
+                closePopup();
+              }, 7000);
+
+            } catch (error) {
+              alert("❌ Failed to save message: " + error.message);
+            }
+          });
+        }
+      });
+    </script>
+
     <style>
+        body {
+            background-color: rgb(41, 39, 39); 
+            margin: 0; 
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Role text animation */
         .role-text {
             font-family: 'Sigmar', serif; 
             font-size: 60px; 
@@ -23,47 +93,137 @@
             overflow: hidden;
             white-space: nowrap;
         }
+        .slide-out { animation: slideOut 0.4s forwards; }
+        .slide-in { animation: slideIn 0.4s forwards; }
 
-        /* Slide out (right to left erase) */
-        .slide-out {
-            animation: slideOut 0.4s forwards;
+        @keyframes slideOut { from { width: 100%; } to { width: 0; } }
+        @keyframes slideIn { from { width: 0; } to { width: 100%; } }
+
+        /* Contact Button */
+        .contact-btn {
+            background: rgb(18, 179, 179);
+            color: white;
+            font-size: 18px;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .contact-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 18px rgba(78, 92, 240, 0.4);
         }
 
-        /* Slide in (left to right write) */
-        .slide-in {
-            animation: slideIn 0.4s forwards;
+        /* Modal (popup) */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background: rgb(255, 255, 255);
+            padding: 50px;
+            border-radius: 15px;
+            width: 350px;
+            text-align: center;
+            animation: pop 0.3s ease;
+        }
+        @keyframes pop {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        .modal-content input, .modal-content textarea {
+            align-content: center;
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        .modal-content button {
+            margin-top: 10px;
+            background: rgb(18,179,179);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .modal-content button:hover { background: rgb(12,140,140); }
+
+        .close {
+            float: right;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+            color: #444;
         }
 
-        @keyframes slideOut {
-            from { width: 100%; }
-            to { width: 0; }
+        /* ✅ Success Popup */
+        #successPopup {
+            display:none; 
+            position:fixed; 
+            inset:0; 
+            background:rgba(0,0,0,0.6); 
+            justify-content:center; 
+            align-items:center; 
+            z-index:2000;
         }
-
-        @keyframes slideIn {
-            from { width: 0; }
-            to { width: 100%; }
+        #successPopup div {
+            background:rgb(225, 176, 241); 
+            padding:30px; 
+            border-radius:25px; 
+            width:320px; 
+            text-align:center; 
+            animation:pop 0.4s ease;
+        }
+        #successPopup h2 {
+            color:#7f4dff; 
+            font-size:20px; 
+            margin:0;
+        }
+        #successPopup p {
+            margin-top:10px; 
+            color:#444; 
+            font-size:14px;
+        }
+        #successPopup button {
+            margin-top:15px; 
+            background:#8e4dff; 
+            color:rgb(232, 232, 232); 
+            border:none; 
+            padding:8px 20px; 
+            border-radius:20px; 
+            cursor:pointer;
         }
     </style>
 </head>
-<body style="background-color: rgb(41, 39, 39);"> 
+<body> 
 
     <!-- Navigation Links -->
     <div style="position:absolute; top: 10px; right: 20px; font-size:20px ; font-family: 'Poppins', sans-serif;">
         <b>
-            <a href="index.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-               onmouseover="this.style.textDecoration='underline';" 
+            <a href="index.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);"
+               onmouseover="this.style.textDecoration='underline';"
                onmouseout="this.style.textDecoration='none';">Home</a>
-
-            <a href="about.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-               onmouseover="this.style.textDecoration='underline';" 
+            <a href="about.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);"
+               onmouseover="this.style.textDecoration='underline';"
                onmouseout="this.style.textDecoration='none';">About</a>
-            
-            <a href="skills.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-               onmouseover="this.style.textDecoration='underline';" 
+            <a href="skills.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);"
+               onmouseover="this.style.textDecoration='underline';"
                onmouseout="this.style.textDecoration='none';">Skills</a>
-            
-            <a href="projects.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);" 
-               onmouseover="this.style.textDecoration='underline';" 
+            <a href="projects.html" style="margin-right: 80px; text-decoration: none; color: rgb(221, 215, 215);"
+               onmouseover="this.style.textDecoration='underline';"
                onmouseout="this.style.textDecoration='none';">Projects</a>
         </b>
     </div> 
@@ -74,21 +234,17 @@
             <i class="fa-brands fa-linkedin-in" style="font-size: 30px; color: white;"></i>
         </a>
     </div>  
-
     <div style="position: absolute; bottom: 70%; left: 100px;">
         <a href="https://github.com/DilpreetSyali" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" 
-                 alt="Github" width="30" height="30" 
-                 style="filter: invert(1);">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                 alt="Github" width="30" height="30" style="filter: invert(1);">
         </a>
     </div>   
-
     <div style="position: absolute; bottom: 50%; left: 100px;">
         <a href="mailto:dilpreetsyali20@gmail.com" target="_blank">
             <i class="fa-solid fa-envelope" style="font-size: 30px; color: white;"></i>
         </a>
     </div> 
-
     <div style="position: absolute; bottom: 40%; left: 100px;">
         <a href="https://drive.google.com/file/d/1g2KgyHZlgNJ96FyuOT_86okMir9Ui7xS" target="_blank">
             <i class="fa-solid fa-file" style="font-size: 30px; color: white;"></i>
@@ -97,70 +253,69 @@
             
     <!-- Intro Section -->
     <div style="position: absolute; top: 20%; left: 200px; max-width: 600px;">
-        <p style="font-family: 'Sigmar', serif; font-size: 30px; 
-                  color: rgb(221, 215, 215); letter-spacing: 2px; margin-bottom: 10px;"><br>
-            HI! I AM <b style="color: rgb(72, 239, 239);">DILPREET</b>
+        <p style="font-family: 'Sigmar', serif; font-size: 30px; color: rgb(221, 215, 215); letter-spacing: 2px; margin-bottom: 10px;"><br>
+            HI There! I AM <b style="color: rgb(72, 239, 239);">DILPREET</b><br>
         </p>
-        
-        <!-- Smooth Sliding Text -->
+        <p style="font-family: 'Sigmar', serif; font-size: 40px; color: rgb(221, 215, 215); letter-spacing: 2px; margin-bottom: 10px;"> I AM A </p>
         <p id="role" class="role-text">Programmer</p>
+        
+        <!-- Contact Me Button -->
+        <br><br>
+        <button class="contact-btn" onclick="openModal()">
+            Contact me <i class="fa-solid fa-paper-plane"></i>
+        </button>
     </div>
 
     <!-- Profile Image -->
-    <img src="me.jpg" style="position:absolute ; top:20%;right: 170px;height:45%;"> </img>
+    <img src="me2 (2).png" style="position:absolute ; top:20%;right: 170px;height:45%;"> </img>
 
-    <!-- Smooth Sliding Script -->
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ✅ Success Popup -->
+    <div id="successPopup">
+      <div style="font-size: medium;">
+        <h2> Something amazing just happened !!</h2><br>
+        <p>I got your message !!<br>
+        Thank you for reaching out, I'll get back to you shortly 💌</p>
+        <button onclick="closePopup()">Close</button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
     <script>
+        function openModal(){ document.getElementById("contactModal").style.display="flex"; }
+        function closeModal(){ document.getElementById("contactModal").style.display="none"; }
+        function closePopup(){ document.getElementById("successPopup").style.display="none"; }
+
+        // Role animation
         const roles = ["Programmer", "Web Developer", "AI-ML Enthusiast"];
         const roleElement = document.getElementById("role");
         let roleIndex = 0;
-
         function showNextRole() {
             roleElement.classList.remove("slide-in");
             roleElement.classList.add("slide-out");
-
             setTimeout(() => {
                 roleIndex = (roleIndex + 1) % roles.length;
                 roleElement.textContent = roles[roleIndex];
-
                 roleElement.classList.remove("slide-out");
                 roleElement.classList.add("slide-in");
-            }, 800);
+            }, 700);
         }
-
         roleElement.classList.add("slide-in");
         setInterval(showNextRole, 3000);
-
-        // --- Swipe Navigation ---
-        const pages = ["index.html", "about.html", "skills.html", "projects.html"];
-        let currentPage = window.location.pathname.split("/").pop() || "index.html";
-        let touchStartX = 0;
-        let touchEndX = 0;
-
-        function handleSwipe() {
-            const minSwipeDistance = 50; 
-            let pageIndex = pages.indexOf(currentPage);
-
-            if (touchEndX < touchStartX - minSwipeDistance) {
-                // Swipe left → Next page
-                let nextPage = pages[(pageIndex + 1) % pages.length];
-                window.location.href = nextPage;
-            } 
-            if (touchEndX > touchStartX + minSwipeDistance) {
-                // Swipe right → Previous page
-                let prevPage = pages[(pageIndex - 1 + pages.length) % pages.length];
-                window.location.href = prevPage;
-            }
-        }
-
-        document.addEventListener("touchstart", e => {
-            touchStartX = e.changedTouches[0].screenX;
-        });
-
-        document.addEventListener("touchend", e => {
-            touchEndX = e.changedTouches[0].screenX;
-            handleSwipe();
-        });
     </script>
 </body>
 </html>
